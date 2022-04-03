@@ -1,0 +1,24 @@
+[
+{"type":"header","version":"5.1.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"u481158665_ffa"},
+{"type":"table","name":"info_all","database":"u481158665_ffa","data":
+[
+{"get_cat":""},
+{"get_cat":"BEF"},
+{"get_cat":"BEM"},
+{"get_cat":"CAF"},
+{"get_cat":"CAM"},
+{"get_cat":"ESF"},
+{"get_cat":"ESM"},
+{"get_cat":"https"},
+{"get_cat":"JUF"},
+{"get_cat":"JUM"},
+{"get_cat":"MIF"},
+{"get_cat":"MIM"},
+{"get_cat":"SEF"},
+{"get_cat":"SEM"},
+{"get_cat":"VEF"},
+{"get_cat":"VEM"}
+]
+}
+]

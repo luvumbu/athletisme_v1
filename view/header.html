@@ -1,3 +1,43 @@
- <h2 >
-    Localisation du fichier view/header.html 
-</h2>
+<h1>
+    Athletisme
+</h1>
+
+<div id="header_2">
+    <h2 onclick="action_header2(this)" title="clubs">Clubs</h2>
+    <h2 onclick="action_header2(this)" title="athletes"> Athletes </h2>
+    <h2 onclick="action_header2(this)" title="villes">Villes</h2>
+    <h2 onclick="action_header2(this)" title="user_pannel">Inscription/Connexion</h2>
+</div>
+
+ 
+ 
+<style>
+ 
+    #img01{
+       
+        text-align: center;
+        width: 100%;
+    }
+#header_2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    background-color: maroon;
+    color:white ; 
+}
+#header_2 h2{
+ text-align: center;
+ transition: 1s all;
+ margin: 0;
+
+ padding: 0;
+}
+#header_2 h2:hover{
+ cursor: pointer;
+ transition: 1s all;
+ background-color: blueviolet;
+}
+h1{
+    text-align: center;
+}
+</style>
