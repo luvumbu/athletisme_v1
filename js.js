@@ -250,7 +250,7 @@ function asyncro(id,source,str) { // affiche resultat dans le idi smart recherch
     const myTimeout = setTimeout(myGreeting, 3000);
 
 function myGreeting() {
-
+// ok 
   Ajax("app_section","model/class/php/result_all.php");
 }
 
