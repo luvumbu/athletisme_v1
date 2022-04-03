@@ -247,11 +247,11 @@ function asyncro(id,source,str) { // affiche resultat dans le idi smart recherch
 
 
 
-    const myTimeout = setTimeout(myGreeting, 1000);
+    const myTimeout = setTimeout(myGreeting, 3000);
 
 function myGreeting() {
 
-  Ajax("app_section","view/get_cookie_creation_info_header.php");
+  Ajax("app_section","model/class/php/get_cookie_creation_info_header.php");
 }
 
 
