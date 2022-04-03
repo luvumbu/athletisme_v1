@@ -243,19 +243,5 @@ function asyncro(id,source,str) { // affiche resultat dans le idi smart recherch
     console.log(ok.info()); // demande l'information dans le tableau
     ok.push(); // envoie l'information au code pkp 
    
-
-
-
-
-    const myTimeout = setTimeout(myGreeting, 3000);
-
-function myGreeting() {
-// ok 
-  Ajax("app_section","model/class/php/result_all.php");
-}
-
-
-
-   
   }
  
