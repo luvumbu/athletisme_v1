@@ -235,13 +235,14 @@ function asyncro(id,source,str) { // affiche resultat dans le idi smart recherch
   }
   function my_name_is_result(_this) {
  
-    
+  /*  
      var ok = new Information("model/class/php/get_cookie_creation_info_header.php"); // création de la classe 
     ok.add("type_search_variable_initial", type_search_variable_initial); // ajout de l'information pour lenvoi 
     ok.add("value", _this.title); // ajout d'une deuxieme information denvoi  
      
     console.log(ok.info()); // demande l'information dans le tableau
     ok.push(); // envoie l'information au code pkp 
-   
+   */ 
+  console.log("Rien") ; 
   }
  
