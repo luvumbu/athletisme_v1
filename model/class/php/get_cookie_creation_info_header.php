@@ -13,7 +13,11 @@ echo $value;
 
 
 <?php
-include("connexion.php") ;
+
+$dbname="u481158665_ffa";
+$username="u481158665_ffa";
+$password="v3p9r3e@59A";
+$servername="localhost";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
