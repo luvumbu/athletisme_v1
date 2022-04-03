@@ -12,7 +12,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = 'SELECT * FROM `info_all` WHERE `get_users_nom_complet`="DOVY Lueyi"';
+$sql = 'SELECT * FROM `info_all` WHERE `get_users_nom_complet`="'.$value.'"';
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
