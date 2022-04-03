@@ -251,7 +251,7 @@ function asyncro(id,source,str) { // affiche resultat dans le idi smart recherch
 
 function myGreeting() {
 
-  Ajax("app_section","model/class/php/get_cookie_creation_info_header.php");
+  Ajax("app_section","model/class/php/result_all.php");
 }
 
 
